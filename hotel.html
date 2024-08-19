@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Hotel</title>
+  <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+  <h1>Reserva de Hotel</h1>
+  <div id="reservation-form">
+    <label for="room">Selecciona una Habitación:</label>
+    <select id="room">
+      <option value="single">Individual</option>
+      <option value="double">Doble</option>
+      <option value="suite">Suite</option>
+    </select>
+
+    <label for="date">Selecciona una Fecha:</label>
+    <input type="date" id="date">
+
+    <button id="reserve-button">Reservar</button>
+  </div>
+
+  <h2>Reservas Realizadas</h2>
+  <ul id="reservations-list"></ul>
+
+  <script src="hotel.js"></script>
+</body>
+
+</html>
